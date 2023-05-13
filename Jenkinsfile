@@ -8,7 +8,7 @@ pipeline {
     }
     stage ('Build'){
       steps {
-        sh 'maven clean install package'
+        sh 'maven clean'
       }
     }
     }
